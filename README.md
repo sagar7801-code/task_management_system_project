@@ -17,7 +17,7 @@ Follow these steps one by one.
 ## 1. Clone or Download the Project
 Go to the folder where you want to keep the project.
 Open terminal of root folder and paste this command
-``` git clone <repo_link> ```
+``` git clone https://github.com/sagar7801-code/task_management_system_project.git ```
 
 ## 2. Create Virtual Environment
 
