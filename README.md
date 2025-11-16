@@ -89,36 +89,60 @@ Below are all commands with examples.
 ---
 
 ### 1. Create a task
-```python cli/cli.py create "Buy milk" --desc "2 liters" --priority low --due 2025-12-01```
+```
+python cli/cli.py create "Buy milk" --desc "2 liters" --priority low --due 2025-12-01
+```
 
 ### 2. List all task
-```python cli/cli.py list```
+```
+python cli/cli.py list
+```
 
 ### 3. List task by status
-```python cli/cli.py list --status open```
-```python cli/cli.py list --status completed```
+```
+python cli/cli.py list --status open
+```
+```
+python cli/cli.py list --status completed
+```
 
 ### 4. List task by priority
-```python cli/cli.py list --priority high```
+```
+python cli/cli.py list --priority high
+```
 
 ### 5. List task by due date filter
-```python cli/cli.py list --due-before 2025-12-10```
-```python cli/cli.py list --due-after 2025-11-01```
+```
+python cli/cli.py list --due-before 2025-12-10
+```
+```
+python cli/cli.py list --due-after 2025-11-01
+```
 
 ### 6. Get a single task by id
-```python cli/cli.py get 1```
+```
+python cli/cli.py get 1
+```
 
 ### 7. Update a task
-```python cli/cli.py update 1 --title "Buy almond milk" --priority medium --due 2025-12-05```
+```
+python cli/cli.py update 1 --title "Buy almond milk" --priority medium --due 2025-12-05
+```
 
 ### 8. Mark task as completed
-```python cli/cli.py complete 1```
+```
+python cli/cli.py complete 1
+```
 
 ### 9. Reopen a task (Mark as open)
-```python cli/cli.py reopen 1```
+```
+python cli/cli.py reopen 1
+```
 
 ### 10. Delete a task
-```python cli/cli.py delete 1```
+```
+python cli/cli.py delete 1
+```
 
 
 ---
